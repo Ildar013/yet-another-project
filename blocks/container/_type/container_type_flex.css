@@ -1,0 +1,6 @@
+.container_type_flex {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / -1;
+  }
+

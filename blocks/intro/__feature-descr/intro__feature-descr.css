@@ -1,0 +1,14 @@
+.intro__feature-descr {
+    margin: 0;
+  
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 700;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .intro__feature-descr {
+      line-height: 18px;
+    }
+  }
+  

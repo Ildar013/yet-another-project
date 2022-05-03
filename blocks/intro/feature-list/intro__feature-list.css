@@ -1,0 +1,17 @@
+.intro__feature-list {
+    margin: 33px 0 0 0;
+    padding: 0;
+  
+    line-height: 0;
+  
+    list-style-type: none;
+  
+    grid-column: 2 / -9;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .intro__feature-list {
+      grid-column: 1 / -1;
+    }
+  }
+  

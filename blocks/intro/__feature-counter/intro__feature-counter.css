@@ -1,0 +1,14 @@
+.intro__feature-counter {
+    margin: 0;
+  
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .intro__feature-counter {
+      line-height: 18px;
+    }
+  }
+  
