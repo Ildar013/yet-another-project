@@ -1,6 +1,5 @@
 .footer__copy {
     margin: 0;
-  
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
@@ -9,6 +8,7 @@
   @media screen and (max-width: 767px) {
     .footer__copy {
       line-height: 14px;
+      padding-top: 48px;
     }
   }
   
