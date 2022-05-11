@@ -1,16 +1,15 @@
 .container_margin_std-margin-top {
-    margin-top: 92px;
+  margin-top: 92px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container_margin_std-margin-top {
+    margin-top: 88px;
   }
-  
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .container_margin_std-margin-top {
-      margin-top: 88px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .container_margin_std-margin-top {
+    margin-top: 64px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .container_margin_std-margin-top {
-      margin-top: 64px;
-    }
-  }
-  
+}

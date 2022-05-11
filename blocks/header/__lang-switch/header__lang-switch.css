@@ -1,17 +1,16 @@
 .header__lang-switch {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 400;
-    text-decoration: none;
-    border-bottom: 2px solid #2a2c2f;
-    color: #fff;
-    display: block;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 2px solid #2a2c2f;
+  color: #fff;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-switch {
+    font-size: 18px;
+    line-height: 20px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .header__lang-switch {
-      font-size: 18px;
-      line-height: 20px;
-    }
-  }
-  
+}

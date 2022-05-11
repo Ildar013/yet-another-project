@@ -1,22 +1,21 @@
 .places__article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 1fr;
-    column-gap: 16px;
-    row-gap: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr;
+  column-gap: 16px;
+  row-gap: 48px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__article {
+    column-gap: 19px;
   }
-  
-  @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .places__article {
-      column-gap: 19px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .places__article {
+    grid-template-columns: 1fr;
+    row-gap: 31px;
+    column-gap: 0;
   }
-  
-  @media screen and (max-width: 767px) {
-    .places__article {
-      grid-template-columns: 1fr;
-      row-gap: 31px;
-      column-gap: 0;
-    }
-  }
-  
+}

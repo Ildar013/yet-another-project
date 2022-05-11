@@ -1,15 +1,12 @@
 .places__list {
-    margin: 0;
-    padding: 0;
-  
-    list-style-type: none;
-  
-    grid-column: 2 / -2;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  grid-column: 2 / -2;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__list {
+    grid-column: 1 / -1;
   }
-  
-  @media screen and (max-width: 1279px) {
-    .places__list {
-      grid-column: 1 / -1;
-    }
-  }
-  
+}
